@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "bootstrap": "^4.2.1",
+    "create-react-library": "^2.6.7",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "jest": "^24.1.0",
+    "lerna": "^2.9.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-test-renderer": "^16.8.1",
+    "reactstrap": "^7.1.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
